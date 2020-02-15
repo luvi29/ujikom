@@ -40,3 +40,15 @@ Route::get('/single-product', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::group(['prefix'=>'admin','middleware'=>['auth']],
+function () {
+
+    route::resource('jeniskitab','jeniskitabController');
+    route::resource('barang','barangController');
+    route::resource('detailpenjualan','detailpenjualanController');
+    route::resource('penjualan','penjualanController');
+    route::resource('pembeli','pembeliController');
+
+
+}
+);

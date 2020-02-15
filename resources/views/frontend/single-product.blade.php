@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>pillloMart</title>
+    <title>Kitab</title>
     <link rel="icon" href="{{ asset ('assets/frontend/pillowmart/pillowmart/img/favicon.png')}}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset ('assets/frontend/pillowmart/pillowmart/css/bootstrap.min.css')}}">
@@ -33,7 +33,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/logo.png')}}" alt="logo"> </a>
+                        <a class="navbar-brand" href="index.html"> <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/logokitab.jpg')}}" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@
 
                                     </div>
                                 </li>
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         pages
@@ -74,9 +74,9 @@
                                         <a class="dropdown-item" href="confirmation.html">confirmation</a>
                                         <a class="dropdown-item" href="elements.html">elements</a>
                                     </div>
-                                </li>
+                                </li> --}}
 
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         blog
@@ -85,10 +85,10 @@
                                         <a class="dropdown-item" href="blog.html"> blog</a>
                                         <a class="dropdown-item" href="single-blog.html">Single blog</a>
                                     </div>
-                                </li>
+                                </li> --}}
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="./contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -127,20 +127,20 @@
     </section>
     <!-- breadcrumb part end-->
 
-  <!--================Single Product Area =================-->
-  <div class="product_image_area">
+<!--================Single Product Area =================-->
+<div class="product_image_area">
     <div class="container">
-      <div class="row justify-content-center">
+    <div class="row justify-content-center">
         <div class="col-lg-4">
-          <div class="product_img_slide owl-carousel">
+        <div class="product_img_slide owl-carousel">
             <div class="single_product_img">
-              <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/tanbihul.jpg')}}" alt="#" class="img-fluid">
+            <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/tanbihul.jpg')}}" alt="#" class="img-fluid">
             </div>
             <div class="single_product_img">
-              <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/amtsilatut.jpg')}}" alt="#" class="img-fluid">
+            <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/amtsilatut.jpg')}}" alt="#" class="img-fluid">
             </div>
             <div class="single_product_img">
-              <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/showi.jpg')}}" alt="#" class="img-fluid">
+            <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/showi.jpg')}}" alt="#" class="img-fluid">
             </div>
             <div class="single_product_img">
                 <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/tanwirul.jpg')}}" alt="#" class="img-fluid">
@@ -163,15 +163,11 @@
                         <div class="single_product_img">
                                 <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/maram.jpg')}}" alt="#" class="img-fluid">
                             </div>
-          </div>
+        </div>
         </div>z
         <div class="col-lg-8">
-          <div class="single_product_text text-center">
-            <h3>Kitab Tanbihul Ghafilin</h3>
-            <p>
-                Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources. Credibly innovate granular internal or “organic” sources whereas high standards in web-readiness. Credibly innovate granular internal or organic sources whereas high standards in web-readiness. Energistically scale future-proof core competencies vis-a-vis impactful experiences. Dramatically synthesize integrated schemas. with optimal networks.
-            </p>
-            {{-- <div class="card_area">
+        <div class="single_product_text text-center">
+            <div class="card_area">
                 <div class="product_count_area">
                     <p>Quantity</p>
                     <div class="product_count d-inline-block">
@@ -181,36 +177,36 @@
                     </div>
                     <p>$5</p>
                 </div>
-              <div class="add_to_cart">
-                  <a href="#" class="btn_3">add to cart</a>
-              </div> --}}
+            <div class="add_to_cart">
+                <a href="#" class="btn_3">add to cart</a>
             </div>
-          </div>
+            </div>
         </div>
-      </div>
+        </div>
     </div>
-  </div>
-  <!--================End Single Product Area =================-->
-   <!-- subscribe part here -->
-   <section class="subscribe_part section_padding">
-      <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-lg-8">
-                  <div class="subscribe_part_content">
-                      <h2>Dapatkan promosi & pembaruan!</h2>
-                      <div class="subscribe_form">
-                          <input type="email" placeholder="Enter your mail">
-                          <a href="#" class="btn_1">Subscribe</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  <!-- subscribe part end -->
+    </div>
+</div>
+<!--================End Single Product Area =================-->
+{{-- <!-- subscribe part here -->
+<section class="subscribe_part section_padding">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="subscribe_part_content">
+                    <h2>Dapatkan promosi & pembaruan!</h2>
+                    <div class="subscribe_form">
+                        <input type="email" placeholder="Enter your mail">
+                        <a href="#" class="btn_1">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- subscribe part end --> --}}
 
-  <!--::footer_part start::-->
-  <footer class="footer_part">
+<!--::footer_part start::-->
+<footer class="footer_part">
         <div class="footer_iner">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
@@ -223,25 +219,25 @@
                                 <a href="index.html">Home</a>
                                 <a href="about.html">About</a>
                                 <a href="product_list.html">Products</a>
-                                <a href="#">Pages</a>
+                                {{-- <a href="#">Pages</a> --}}
                                 <a href="blog.html">Blog</a>
                                 <a href="contact.html">Contact</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    {{-- <div class="col-lg-4">
                         <div class="social_icon">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
                             <a href="#"><i class="fab fa-google-plus-g"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="copyright_part">
+        {{-- <div class="copyright_part">
             <div class="container">
                 <div class="row ">
                     <div class="col-lg-12">
@@ -257,7 +253,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </footer>
     <!--::footer_part end::-->
 

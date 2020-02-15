@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>pillloMart</title>
+    <title>Kitab</title>
     <link rel="icon" href="{{ asset ('assets/frontend/pillowmart/pillowmart/img/favicon.png')}}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset ('assets/frontend/pillowmart/pillowmart/css/bootstrap.min.css')}}">
@@ -59,7 +59,7 @@
 
                                     </div>
                                 </li>
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         pages
@@ -74,9 +74,9 @@
                                         <a class="dropdown-item" href="confirmation.html">confirmation</a>
                                         <a class="dropdown-item" href="elements.html">elements</a>
                                     </div>
-                                </li>
+                                </li> --}}
 
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         blog
@@ -85,10 +85,10 @@
                                         <a class="dropdown-item" href="blog.html"> blog</a>
                                         <a class="dropdown-item" href="single-blog.html">Single blog</a>
                                     </div>
-                                </li>
+                                </li> --}}
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="./contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -171,14 +171,14 @@
                                 <div class="single_product_item">
                                     <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/tanbihul.jpg')}}" alt="#" class="img-fluid">
                                     <h3> <a href="./single-product"> kitab Tanbihul Ghofilin</a> </h3>
-                                    <p>From $90.000</p>
+                                    <p>From Rp90.000</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                     <div class="single_product_item">
                                         <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/amtsilatut.jpg')}}" alt="#" class="img-fluid">
                                         <h3> <a href="./single-product">Kitab Al-Amtsilah At-Tashrifiyyah</a> </h3>
-                                        <p>From $40.000</p>
+                                        <p>From Rp40.000</p>
                                     </div>
 
                             </div>
@@ -186,28 +186,28 @@
                                 <div class="single_product_item">
                                     <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/showi.jpg')}}" alt="#" class="img-fluid">
                                     <h3> <a href="./single-product"> Kitab Tafsir Showi</a> </h3>
-                                    <p>From $1.000.000</p>
+                                    <p>From Rp1.000.000</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single_product_item">
                                     <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/tanwirul.jpg')}}" alt="#" class="img-fluid">
                                     <h3> <a href="./single-product"> Kitab Tanwirul Qulub</a> </h3>
-                                    <p>From $88.000</p>
+                                    <p>From Rp88.000</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single_product_item">
                                     <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/tafsir.jpg')}}" alt="#" class="img-fluid">
                                     <h3> <a href="./single-product">Kitab Tafsir ibnu Abas</a> </h3>
-                                    <p>From $70.000</p>
+                                    <p>From Rp70.000</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                     <div class="single_product_item">
                                         <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/dalail.jpg')}}" alt="#" class="img-fluid">
                                         <h3> <a href="./single-product">Kitab Dalail Khairat</a> </h3>
-                                        <p>From $80.000</p>
+                                        <p>From Rp80.000</p>
                                     </div>
                                 </div>
 
@@ -215,14 +215,14 @@
                                 <div class="single_product_item">
                                     <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/arbain.jpg')}}" alt="#" class="img-fluid">
                                     <h3> <a href="./single-product">Hadis Arbain Nawawi</a> </h3>
-                                    <p>From $50.000</p>
+                                    <p>From Rp50.000</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                     <div class="single_product_item">
                                         <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/duja.jpg')}}" alt="#" class="img-fluid">
                                         <h3> <a href="./single-product">Kitab Inarotud Duja</a> </h3>
-                                        <p>From $55.000</p>
+                                        <p>From Rp55.000</p>
                                     </div>
                                 </div>
 
@@ -230,14 +230,14 @@
                                     <div class="single_product_item">
                                         <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/maram.jpg')}}" alt="#" class="img-fluid">
                                         <h3> <a href="./single-product">Terjemah Bulughul Maram</a> </h3>
-                                        <p>From $1.360.000</p>
+                                        <p>From Rp1.360.000</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
                                         <div class="single_product_item">
                                             <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/product/ibnu.jpg')}}" alt="#" class="img-fluid">
                                             <h3> <a href="./single-product">  Kitab Tafsir Ibnu Katsir</a> </h3>
-                                            <p>From $1.500.000</p>
+                                            <p>From Rp1.500.000</p>
                                         </div>
                                 </div>
                         </div>
@@ -332,7 +332,7 @@
     </section> --}}
     <!-- feature part end -->
 
-    <!-- subscribe part here -->
+    {{-- <!-- subscribe part here -->
     <section class="subscribe_part section_padding">
         <div class="container">
             <div class="row justify-content-center">
@@ -348,7 +348,7 @@
             </div>
         </div>
     </section>
-    <!-- subscribe part end -->
+    <!-- subscribe part end --> --}}
 
     <!--::footer_part start::-->
     <footer class="footer_part">
@@ -364,25 +364,25 @@
                                     <a href="index.html">Home</a>
                                     <a href="about.html">About</a>
                                     <a href="product_list.html">Products</a>
-                                    <a href="#">Pages</a>
+                                    {{-- <a href="#">Pages</a> --}}
                                     <a href="blog.html">Blog</a>
                                     <a href="contact.html">Contact</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        {{-- <div class="col-lg-4">
                             <div class="social_icon">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                                 <a href="#"><i class="fab fa-google-plus-g"></i></a>
                                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="copyright_part">
+            {{-- <div class="copyright_part">
                 <div class="container">
                     <div class="row ">
                         <div class="col-lg-12">
@@ -393,7 +393,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                 <div class="copyright_link">
                                     <a href="#">Turms & Conditions</a>
                                     <a href="#">FAQ</a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>

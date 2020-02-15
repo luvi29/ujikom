@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>pillloMart</title>
+    <title>Kitab</title>
     <link rel="icon" href="{{ asset ('assets/frontend/pillowmart/pillowmart/img/favicon.png')}}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset ('assets/frontend/pillowmart/pillowmart/css/bootstrap.min.css')}}">
@@ -59,7 +59,7 @@
 
                                     </div>
                                 </li>
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         pages
@@ -74,17 +74,17 @@
                                         <a class="dropdown-item" href="confirmation.html">confirmation</a>
                                         <a class="dropdown-item" href="elements.html">elements</a>
                                     </div>
-                                </li>
+                                </li> --}}
 
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         blog
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                    </a> --}}
+                                    {{-- <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
                                         <a class="dropdown-item" href="blog.html"> blog</a>
                                         <a class="dropdown-item" href="single-blog.html">Single blog</a>
-                                    </div>
+                                    </div> --}}
                                 </li>
 
                                 <li class="nav-item">
@@ -153,7 +153,7 @@
                             </div>
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
-                                    <h5>from $35.000</h5>
+                                    <h5>from Rp35.000</h5>
                                     <h2> <a href="single-product.html">Kitab Jurumiyah</a> </h2>
                                     <a href="./product_list" class="btn_3">Explore Now</a>
                                 </div>
@@ -169,7 +169,7 @@
                             </div>
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
-                                    <h5>from $35.000</h5>
+                                    <h5>from Rp35.000</h5>
                                     <h2> <a href="single-product.html">Kitab Alfiyah</a> </h2>
                                     <a href="./product_list" class="btn_3">Explore Now</a>
                                 </div>
@@ -186,7 +186,7 @@
                             </div>
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
-                                    <h5>from $50.000</h5>
+                                    <h5>from Rp50.000</h5>
                                     <h2> <a href="single-product.html">Ringkasan Hadist Bukhari</a> </h2>
                                     <a href="./product_list" class="btn_3">Explore Now</a>
                                 </div>
@@ -217,42 +217,42 @@
                             <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/tranding_item/ahlaq.jpg')}}" alt="#" class="img-fluid">
                         </div>
                         <h3> <a href="single-product.html">Kitab Ahlaq</a> </h3>
-                        <p>From $20.000</p>
+                        <p>From Rp20.000</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/tranding_item/safinah.jpg')}}" alt="#" class="img-fluid">
                         <h3> <a href="single-product.html">Kitab Safinah</a> </h3>
-                        <p>From $20.000</p>
+                        <p>From Rp20.000</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/tranding_item/tijan.jpg')}}" alt="#" class="img-fluid">
                         <h3> <a href="single-product.html">Kitab Tijan</a> </h3>
-                        <p>From $20.000</p>
+                        <p>From Rp20.000</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/tranding_item/qurotuluyun.jpg')}}" alt="#" class="img-fluid">
                         <h3> <a href="single-product.html">Kitab Qurotuluyun</a> </h3>
-                        <p>From $20.000</p>
+                        <p>From Rp20.000</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/tranding_item/fathulizar.jpg')}}" alt="#" class="img-fluid">
                         <h3> <a href="single-product.html">Kitab Fathulizar</a> </h3>
-                        <p>From $20.000</p>
+                        <p>From Rp20.000</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="{{ asset ('assets/frontend/pillowmart/pillowmart/img/tranding_item/talim.jpg')}}" alt="#" class="img-fluid">
                         <h3> <a href="single-product.html">Terjemahan Kitab Talim Mutaalim</a> </h3>
-                        <p>From $25.000</p>
+                        <p>From Rp25.000</p>
                     </div>
                 </div>
             </div>
@@ -317,7 +317,7 @@
     </section>
     <!-- feature part end --> --}}
 
-    <!-- subscribe part here -->
+    {{-- <!-- subscribe part here -->
     <section class="subscribe_part section_padding">
         <div class="container">
             <div class="row justify-content-center">
@@ -333,7 +333,7 @@
             </div>
         </div>
     </section>
-    <!-- subscribe part end -->
+    <!-- subscribe part end --> --}}
 
     <!--::footer_part start::-->
     <footer class="footer_part">
@@ -352,19 +352,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    {{-- <div class="col-lg-4">
                         <div class="social_icon">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
                             <a href="#"><i class="fab fa-google-plus-g"></i></a>
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="copyright_part">
+        {{-- <div class="copyright_part">
             <div class="container">
                 <div class="row ">
                     <div class="col-lg-12">
@@ -375,7 +375,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                             <div class="copyright_link">
                                 <a href="#">Turms & Conditions</a>
                                 <a href="#">FAQ</a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>

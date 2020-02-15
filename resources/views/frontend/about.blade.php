@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>pillloMart</title>
+    <title>Kitab</title>
     <link rel="icon" href="img/favicon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset ('assets/frontend/pillowmart/pillowmart/css/bootstrap.min.css')}}">
@@ -59,24 +59,10 @@
 
                                     </div>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        pages
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                                        <a class="dropdown-item" href="login.html">
-                                            login
+                                {{--
+                                     --}}
 
-                                        </a>
-                                        <a class="dropdown-item" href="checkout.html">product checkout</a>
-                                        <a class="dropdown-item" href="cart.html">shopping cart</a>
-                                        <a class="dropdown-item" href="confirmation.html">confirmation</a>
-                                        <a class="dropdown-item" href="elements.html">elements</a>
-                                    </div>
-                                </li>
-
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         blog
@@ -85,7 +71,7 @@
                                         <a class="dropdown-item" href="blog.html"> blog</a>
                                         <a class="dropdown-item" href="single-blog.html">Single blog</a>
                                     </div>
-                                </li>
+                                </li> --}}
 
                                 <li class="nav-item">
                                     <a class="nav-link" href="./contact">Contact</a>
@@ -231,7 +217,7 @@
     </section>
     <!-- client review part end -->
 
-    <!-- subscribe part here -->
+    {{-- <!-- subscribe part here -->
     <section class="subscribe_part section_padding">
         <div class="container">
             <div class="row justify-content-center">
@@ -247,7 +233,7 @@
             </div>
         </div>
     </section>
-    <!-- subscribe part end -->
+    <!-- subscribe part end --> --}}
 
     <!--::footer_part start::-->
     <footer class="footer_part">
@@ -260,25 +246,25 @@
                                     <a href="index.html">Home</a>
                                     <a href="about.html">About</a>
                                     <a href="product_list.html">Products</a>
-                                    <a href="#">Pages</a>
+                                    {{-- <a href="#">Pages</a> --}}
                                     <a href="blog.html">Blog</a>
                                     <a href="contact.html">Contact</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        {{-- <div class="col-lg-4">
                             <div class="social_icon">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                                 <a href="#"><i class="fab fa-google-plus-g"></i></a>
                                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="copyright_part">
+            {{-- <div class="copyright_part">
                 <div class="container">
                     <div class="row ">
                         <div class="col-lg-12">
@@ -289,7 +275,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                 <div class="copyright_link">
                                     <a href="#">Turms & Conditions</a>
                                     <a href="#">FAQ</a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>

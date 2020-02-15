@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>pillloMart</title>
+    <title>Kitab</title>
     <link rel="icon" href="img/favicon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset ('assets/frontend/pillowmart/pillowmart/css/bootstrap.min.css')}}">
@@ -59,7 +59,7 @@
 
                                     </div>
                                 </li>
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         pages
@@ -74,9 +74,9 @@
                                         <a class="dropdown-item" href="confirmation.html">confirmation</a>
                                         <a class="dropdown-item" href="elements.html">elements</a>
                                     </div>
-                                </li>
+                                </li> --}}
 
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         blog
@@ -85,7 +85,7 @@
                                         <a class="dropdown-item" href="blog.html"> blog</a>
                                         <a class="dropdown-item" href="single-blog.html">Single blog</a>
                                     </div>
-                                </li>
+                                </li> --}}
 
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
@@ -139,7 +139,7 @@
     </section>
     <!-- breadcrumb part end-->
 
-  <!-- ================ contact section start ================= -->
+  {{-- <!-- ================ contact section start ================= -->
   <section class="contact-section section_padding">
     <div class="container">
       <div class="d-none d-sm-block mb-5 pb-4">
@@ -182,12 +182,12 @@
           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap">
         </script>
 
-      </div>
+      </div> --}}
 
 
       <div class="row">
         <div class="col-12">
-          <h2 class="contact-title">Get in Touch</h2>
+          <h2 class="contact-title">Hubungi Kami!</h2>
         </div>
         <div class="col-lg-8">
           <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
@@ -236,14 +236,14 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
-              <h3>00 (440) 9865 562</h3>
+              <h3>081395730289</h3>
               <p>Mon to Fri 9am to 6pm</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
-              <h3>support@colorlib.com</h3>
+              <h3>luvina952@gmail.com</h3>
               <p>Send us your query anytime!</p>
             </div>
           </div>
@@ -264,7 +264,7 @@
                                 <a href="index.html">Home</a>
                                 <a href="about.html">About</a>
                                 <a href="product_list.html">Products</a>
-                                <a href="#">Pages</a>
+                                {{-- <a href="#">Pages</a> --}}
                                 <a href="blog.html">Blog</a>
                                 <a href="contact.html">Contact</a>
                             </div>
